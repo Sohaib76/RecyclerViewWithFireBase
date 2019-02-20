@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:paddingBottom="25dp"
+    android:layout_marginBottom="5dp"
+    android:background="@android:color/white"
+
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgImportantDates"
+
+        />
+
+
+    <TextView
+        android:id="@+id/dateImportantDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgImportantDates"
+        android:text="27/9/2018"
+        android:textSize="24dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="12dp"
+        />
+
+
+    <TextView
+        android:id="@+id/dayImportantDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:layout_below="@+id/dateImportantDates"
+        android:layout_toRightOf="@id/imgImportantDates"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        />
+
+
+
+
+</RelativeLayout>
